@@ -23,6 +23,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3593552353557217400}
   - component: {fileID: 4365844411167936574}
+  - component: {fileID: 1749932102056196447}
   m_Layer: 0
   m_Name: Caja Prefab
   m_TagString: Untagged
@@ -61,6 +62,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1749932102056196447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7299049421669910516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da239669f859e2542925330cfc7dcd61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  precio: 8
 --- !u!1001 &6724030467605938882
 PrefabInstance:
   m_ObjectHideFlags: 0

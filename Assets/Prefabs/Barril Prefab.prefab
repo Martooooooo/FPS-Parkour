@@ -61,6 +61,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da239669f859e2542925330cfc7dcd61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  precio: 15
 --- !u!64 &8626654749470191265
 MeshCollider:
   m_ObjectHideFlags: 0
