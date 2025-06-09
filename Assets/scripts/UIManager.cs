@@ -6,6 +6,7 @@ using TMPro;
 public class UIManager : MonoBehaviour
 {
     public TextMeshProUGUI txtMoney;
+    public TextMeshProUGUI txtVida;
     void Start()
     {
         txtMoney.text = "$0";
@@ -15,6 +16,11 @@ public class UIManager : MonoBehaviour
     {
         txtMoney.text = "$" + moneyAmount;
     }
+    public void updateHealthText(string healthPoints)
+    {
+        txtVida.text = "HP" + healthPoints;
+    }
+
 
     // Update is called once per frame
     void Update()
